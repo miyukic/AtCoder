@@ -9,11 +9,13 @@ fun main() {
     for (i in 0..30) {
         println(i.toString() + ": " + fb(i))
     }
-    print("呼び出し回数: " + count + " 回")
+    println("呼び出し回数: " + count + " 回")
     count = 0
-    for (i in 0..30) {
-        println(i.toString() + ": " + Fibo(i))
-    }
+    //for (i in 0..30) {
+    //    println(i.toString() + ": " + Fibo(i))
+    //}
+    println(30.toString() + ": " + Fibo(30))
+
     print("呼び出し回数: " + count + " 回")
 }
 
